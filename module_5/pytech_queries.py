@@ -16,3 +16,6 @@ MongoDB: find_one()
 doc = db.collection_name.find_one({"student_id": "1009"})
 
 print(doc["student_id"])
+
+print("\n -- DISPLAYING STUDENTS DOCUMENTS FROM find() QUERY -- ")
+print()
